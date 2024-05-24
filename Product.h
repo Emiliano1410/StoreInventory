@@ -28,7 +28,7 @@ public:
     void setQuantity(int quantity);
     
     // Método virtual para imprimir los detalles del producto
-    virtual void printDetails() const;
+    virtual void printDetails() const = 0;
 };
 
 #endif
