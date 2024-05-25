@@ -25,7 +25,7 @@ int main() {
     // Quitar productos al inventario de la tienda
     store.removeProductFromInventory("Jacket");
 
-    // Mostrar el inventario
+    // Listar los productos en el inventario
     store.listProducts();
 
     return 0;
