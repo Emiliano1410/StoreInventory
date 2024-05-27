@@ -1,4 +1,5 @@
 #include "Clothing.h"
+#include <iomanip>
 #include <iostream>
 
 Clothing::Clothing(const std::string& name, double price, int quantity, const std::string& size, const std::string& material)
@@ -20,7 +21,10 @@ void Clothing::setMaterial(const std::string& material) {
     this->material = material;
 }
 
-void Clothing::printDetails() const {
-    std::cout << "Clothing: " << name << ", Price: $" << price << ", Quantity: " << quantity
-              << ", Size: " << size << ", Material: " << material << std::endl;
+std::string Clothing::getDetails() const {
+    std::ostringstream oss;
+    oss << std::fixed << std::setprecision(2);
+    oss << "Clothing: " << name << ", Price: $" << price << ", Quantity: " << quantity
+        << ", Size: " << size << ", Material: " << material;
+    return oss.str();
 }
