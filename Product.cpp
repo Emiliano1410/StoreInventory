@@ -27,7 +27,3 @@ int Product::getQuantity() const {
 void Product::setQuantity(int quantity) {
     this->quantity = quantity;
 }
-
-void Product::printDetails() const {
-    std::cout << "Product: " << name << ", Price: $" << price << ", Quantity: " << quantity << std::endl;
-}
