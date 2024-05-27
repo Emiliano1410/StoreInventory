@@ -20,7 +20,7 @@ public:
     void setMaterial(const std::string& material);
 
     // Método sobrescrito para imprimir los detalles de la prenda de ropa.
-    void printDetails() const override;
+    std::string getDetails() const override;
 };
 
 #endif
