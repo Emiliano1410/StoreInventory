@@ -16,7 +16,7 @@ public:
     void setOrigin(const std::string& origin);
 
     // Método sobrescrito para imprimir los detalles de la fruta.
-    void printDetails() const override;
+    std::string getDetails() const override;
 };
 
 #endif
