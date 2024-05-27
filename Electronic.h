@@ -16,7 +16,7 @@ public:
     void setWarrantyPeriod(int warrantyPeriod);
 
     // Método sobrescrito para imprimir los detalles del producto electrónico.
-    void printDetails() const override;
+    std::string getDetails() const override;
 };
 
 #endif
