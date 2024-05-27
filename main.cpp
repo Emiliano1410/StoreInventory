@@ -25,7 +25,7 @@ int main() {
     // Quitar productos al inventario de la tienda
     store.removeProductFromInventory("Jacket");
 
-    // Listar los productos en el inventario
+    // Listar productos en el inventario usando polimorfismo
     store.listProducts();
 
     return 0;
