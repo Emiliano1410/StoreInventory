@@ -8,7 +8,7 @@ Este tipo de sistema de inventario tiene aplicaciones directas en entornos comer
 
 Las tiendas minoristas a menudo tienen que gestionar una variedad de productos con diferentes características y necesidades de seguimiento. El problema específico es cómo gestionar eficientemente el inventario de estos productos, incluyendo la adición de nuevos productos, la eliminación de productos vendidos o agotados, y la visualización del inventario actual para decisiones comerciales.
 
-Para ello se hizo un programa con las siguientes características:
+Para ello se hizo un programa con las siguientes características y diseño:
 
 Modelado de Productos:
 
