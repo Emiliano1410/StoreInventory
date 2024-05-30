@@ -4,7 +4,7 @@ Este sistema de inventario en C++ es una aplicación de consola diseñada para g
 
 Este tipo de sistema de inventario tiene aplicaciones directas en entornos comerciales y empresariales ya que ayuda a mantener el control sobre las cantidades de productos disponibles, lo cual es crucial para la gestión de la cadena de suministro y al registrar precios y cantidades, el sistema puede ser utilizado para valorar el inventario actual y prever necesidades de compra o producción.
 
-## Solución
+## Solución ✅
 
 Las tiendas minoristas a menudo tienen que gestionar una variedad de productos con diferentes características y necesidades de seguimiento. El problema específico es cómo gestionar eficientemente el inventario de estos productos, incluyendo la adición de nuevos productos, la eliminación de productos vendidos o agotados, y la visualización del inventario actual para decisiones comerciales.
 
