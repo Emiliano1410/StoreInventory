@@ -32,6 +32,6 @@ void Store::removeProductFromInventory(const std::string& productName) {
 
 void Store::listProducts() const {
     for (const auto& product : products) {
-        std::cout << product->getDetails() << std::endl;
+        std::cout << *product << std::endl;
     }
 }
