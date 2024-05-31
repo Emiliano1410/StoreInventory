@@ -27,3 +27,8 @@ int Product::getQuantity() const {
 void Product::setQuantity(int quantity) {
     this->quantity = quantity;
 }
+
+std::ostream& operator<<(std::ostream& os, const Product& product) {
+    os << product.getDetails();
+    return os;
+}
