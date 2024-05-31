@@ -2,6 +2,7 @@
 #define PRODUCT_H
 
 #include <string>
+#include <iostream>
 
 class Product {
 protected:
@@ -29,6 +30,9 @@ public:
     
     // Método virtual para imprimir los detalles del producto
     virtual std::string getDetails() const = 0;
+
+    // Sobrecarga del operador <<
+    friend std::ostream& operator<<(std::ostream& os, const Product& product);
 };
 
 #endif
