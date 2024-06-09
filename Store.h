@@ -2,11 +2,9 @@
 #define STORE_H
 
 #include "Product.h"
-#include "Fruit.h"
-#include "Electronic.h"
-#include "Clothing.h"
 #include <vector>
 #include <memory>
+#include <string>
 
 class Store {
 private:
@@ -24,8 +22,13 @@ public:
 
     // Elimina un producto del inventario de la tienda por su nombre.
     void removeProductFromInventory(const std::string& productName);
+
     // Lista todos los productos en el inventario.
-    void listProducts() const;
+    std::string listProducts() const;
+
+    // Guardar y cargar datos de un archivo de texto
+    void saveToFile(const std::string& filename) const;
+    void loadFromFile(const std::string& filename);
 };
 
 #endif
