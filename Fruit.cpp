@@ -1,6 +1,6 @@
 #include "Fruit.h"
 #include <iomanip>
-#include <iostream>
+#include <sstream>
 
 Fruit::Fruit(const std::string& name, double price, int quantity, const std::string& origin)
     : Product(name, price, quantity), origin(origin) {}
