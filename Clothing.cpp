@@ -1,6 +1,6 @@
 #include "Clothing.h"
 #include <iomanip>
-#include <iostream>
+#include <sstream>
 
 Clothing::Clothing(const std::string& name, double price, int quantity, const std::string& size, const std::string& material)
     : Product(name, price, quantity), size(size), material(material) {}
