@@ -4,7 +4,7 @@ This C++ inventory system is a console application designed to manage products i
 
 This type of inventory system has direct applications in commercial and business environments as it helps maintain control over the quantities of available products. This is crucial for supply chain management. By recording prices and quantities, the system can be used to value the current inventory and forecast purchasing or production needs.
 
-## Solución ✅
+## Solution ✅
 
 1. The Proper Classes are Identified:
 
