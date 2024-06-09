@@ -1,6 +1,6 @@
 #include "Electronic.h"
+#include <sstream>
 #include <iomanip>
-#include <iostream>
 
 Electronic::Electronic(const std::string& name, double price, int quantity, int warrantyPeriod)
     : Product(name, price, quantity), warrantyPeriod(warrantyPeriod) {}
