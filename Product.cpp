@@ -1,4 +1,6 @@
 #include "Product.h"
+#include <iomanip>
+#include <sstream>
 
 Product::Product(const std::string& name, double price, int quantity)
     : name(name), price(price), quantity(quantity) {}
